@@ -1,4 +1,7 @@
 function getPatterns(word,x){
+    if(word.length<=0){
+        return "please enter text"
+    }
     const map1 = new Map()
     let firstIndex = null
     let secondIndex = null
